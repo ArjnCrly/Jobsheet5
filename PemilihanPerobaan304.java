@@ -14,7 +14,7 @@ public class PemilihanPerobaan304 {
         angka1 = input04.nextDouble();
         System.out.println("Masukkan angka kedua: ");
         angka2 = input04.nextDouble();
-        System.out.println("Masukkan operator (+ - * /): ");14
+        System.out.println("Masukkan operator (+ - * /): ");
         operator = input04.next().charAt(0);
 
         switch (operator) {
