@@ -11,9 +11,8 @@ public class PemilihanPercobaan104 {
         System.out.println("Masukkan angka: ");
         int angka = input04.nextInt();
 
-        if (angka % 2 == 0)
-            System.out.println("Angka "+angka+" bilangan genap");
-        else
-            System.out.println("Angka "+angka+" bilangan ganjil");
+       String result = (angka % 2 == 0) ? "genap" : "ganjil";
+       System.out.println("Angka " +angka+ " bilangan " + result);
+
     }
 }
